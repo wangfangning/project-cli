@@ -3,7 +3,7 @@ import VueRouter from 'vue-router';
 
 Vue.use(VueRouter);
 
-const Error404 = () => import('@/page/Error404');
+const Error404 = () => import('page/Error404');
 
 const options = {
   routes: [

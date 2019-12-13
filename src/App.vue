@@ -14,7 +14,7 @@
 </template>
 <script>
 import Api from 'api';
-import Error404 from '@/page/Error404.vue';
+import Error404 from 'page/Error404.vue';
 
 export default {
   name: 'app',
